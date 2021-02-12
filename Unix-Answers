@@ -27,8 +27,8 @@ Commands and Scripts for Unix Exercise
 
 13. grep ">" test.fa | sort > sorted.fa && sed -i 's/PREDICTED: //g' sorted.fa && cut -d ' ' -f 2,3 sorted.fa
 
-
-14.
+14. Created a shell script(species.sh) with the command above then;
+    . species.sh sort | uniq -c
 
 15. #!usr/bin/env bash
      lim=30
