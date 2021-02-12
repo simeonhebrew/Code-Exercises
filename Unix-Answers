@@ -21,9 +21,9 @@ Commands and Scripts for Unix Exercise
 
 10. grep "^>" test.fa > identifiers.txt
 
-11. sed -i 's/A/a/g' test.fa
+11. sed -i 's/A/a/g' test2.fa
 
-12. echo $( grep "^>" test.fa )
+12. $( grep "^>" test.fa )
 
 13. grep ">" test.fa | sort > sorted.fa && sed -i 's/PREDICTED: //g' sorted.fa && cut -d ' ' -f 2,3 sorted.fa
 
