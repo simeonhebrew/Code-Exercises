@@ -44,7 +44,11 @@ Commands and Scripts for Unix Exercise
       touch "trial{$trial}"
        mv trial{$trial} trial{$trial}.data
      done
+17.
 
+
+
+18.  echo output1> stdout.log && echo error2> stderr.log
 
 
 
