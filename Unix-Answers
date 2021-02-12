@@ -21,7 +21,7 @@ Commands and Scripts for Unix Exercise
 
 10. grep "^>" test.fa > identifiers.txt
 
-11. 
+11. sed -i 's/A/a/g' test.fa
 
 12. echo $( grep "^>" test.fa )
 
