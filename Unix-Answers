@@ -1,8 +1,8 @@
-# **Commands and scripts for Bash assignment**
+ # **Commands and scripts for Bash assignment**
 
 1. $ ps -e | wc -l   (278 processes)
 
-2. date && who && time (See bash script under scripts)
+2. date && who && time > calendar.log
 
 3. touch empty.txt
 
