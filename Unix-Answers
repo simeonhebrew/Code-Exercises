@@ -25,7 +25,8 @@ Commands and Scripts for Unix Exercise
 
 12. echo $( grep "^>" test.fa )
 
-13. cut -d ' ' -f 1 test.fa    
+13. grep ">" test.fa | sort > sorted.fa && sed -i 's/PREDICTED: //g' sorted.fa && cut -d ' ' -f 2,3 sorted.fa
+
 
 14.
 
