@@ -38,8 +38,14 @@ Commands and Scripts for Unix Exercise
        echo "$i"
      done
 
-16.
-    
+16. 
+    for trial in {1..20}
+     do
+      touch "trial{$trial}"
+       mv trial{$trial} trial{$trial}.data
+     done
+
+
 
 
 
