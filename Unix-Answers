@@ -3,7 +3,7 @@ Commands and Scripts for Unix Exercise
 
 1. $ ps -e | wc -l   (278 processes)
 
-2. date && who && time > calendar.log
+2. date && who && time > calendar.log 
 
 3. touch empty.txt
 
@@ -13,7 +13,7 @@ Commands and Scripts for Unix Exercise
 
 6. echo "Hello,world!" > universal_greeting.txt
 
-7. cp universal_greeting.txt "universal greeting.txt"
+7. Using nano text editor to create universal greeting.txt
 
 8. wget https://raw.githubusercontent.com/Fnyasimi/my-first-repo/main/directory1/test.fa
 
@@ -21,7 +21,7 @@ Commands and Scripts for Unix Exercise
 
 10. grep "^>" test.fa > identifiers.txt
 
-11. sed -i 's/A/a/g' test2.fa
+11. cp test.fa test2.fa | sed -i 's/A/a/g' test2.fa 
 
 12. $( grep "^>" test.fa )
 
@@ -49,6 +49,11 @@ Commands and Scripts for Unix Exercise
 
 
 18.  echo output1> stdout.log && echo error2> stderr.log
+
+19.
+
+
+20. ../../Fun_stuff/
 
 
 
