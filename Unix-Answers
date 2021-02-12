@@ -1,4 +1,5 @@
- # **Commands and scripts for Bash assignment**
+
+Commands and Scripts for Unix Exercise
 
 1. $ ps -e | wc -l   (278 processes)
 
