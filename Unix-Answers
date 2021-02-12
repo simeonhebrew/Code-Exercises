@@ -15,7 +15,7 @@ Commands and Scripts for Unix Exercise
 
 7. cp universal_greeting.txt "universal greeting.txt"
 
-8. https://raw.githubusercontent.com/Fnyasimi/my-first-repo/main/directory1/test.fa
+8. wget https://raw.githubusercontent.com/Fnyasimi/my-first-repo/main/directory1/test.fa
 
 9. For lines : wc -l test. fa (10281 lines)     For sequences : grep -c "^>" test.fa (100 sequences)
 
