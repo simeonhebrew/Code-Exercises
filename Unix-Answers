@@ -1,0 +1,29 @@
+# *Commands and scripts for Bash assignment
+
+1. $ ps -e | wc -l   (279 processes)
+
+2. 
+
+3. touch empty.txt
+
+4. mkdir -p ../Work/mini-project/RNA-Seq/
+
+5. mv seqs.txt sequences.fasta (No,it does not change the contents of the file)
+
+6. echo "Hello,world!" > universal_greeting.txt
+
+7. cp universal_greeting.txt "universal greeting.txt"
+
+8. git clone https://github.com/Fnyasimi/my-first-repo.git (Then I accessed the repo locally)
+
+9. For lines : wc -l test. fa (10281 lines)     For sequences : grep -c "^>" test.fa (100 sequences)
+
+10. grep "^>" test.fa > identifiers.txt
+
+11. 
+
+12. echo $( grep "^>" test.fa )
+
+13. cut -d ' ' -f 1 test.fa    
+
+
