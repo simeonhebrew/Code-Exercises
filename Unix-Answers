@@ -27,4 +27,18 @@ Commands and Scripts for Unix Exercise
 
 13. cut -d ' ' -f 1 test.fa    
 
+14.
+
+15. #!usr/bin/env bash
+     lim=30
+
+     for ((i=0; i<=lim; i++))
+     do
+       echo "$i"
+     done
+
+16.
+    
+
+
 
