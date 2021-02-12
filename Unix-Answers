@@ -1,6 +1,7 @@
 
 Commands and Scripts for Unix Exercise
 
+
 1. $ ps -e | wc -l   (278 processes)
 
 2. date && who && time > calendar.log 
