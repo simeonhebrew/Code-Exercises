@@ -1,8 +1,8 @@
-# *Commands and scripts for Bash assignment
+# **Commands and scripts for Bash assignment**
 
-1. $ ps -e | wc -l   (279 processes)
+1. $ ps -e | wc -l   (278 processes)
 
-2. 
+2. date && who && time (See bash script under scripts)
 
 3. touch empty.txt
 
@@ -14,7 +14,7 @@
 
 7. cp universal_greeting.txt "universal greeting.txt"
 
-8. git clone https://github.com/Fnyasimi/my-first-repo.git (Then I accessed the repo locally)
+8. https://raw.githubusercontent.com/Fnyasimi/my-first-repo/main/directory1/test.fa
 
 9. For lines : wc -l test. fa (10281 lines)     For sequences : grep -c "^>" test.fa (100 sequences)
 
