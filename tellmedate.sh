@@ -1,3 +1,5 @@
+
+
 echo "We are in the year $(date)"
 echo "It is this time: $(date "+%T")"
 echo "What's your name?"
